@@ -256,7 +256,7 @@ Main Heading Font size */
 
 @media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
     .tabDimensions  {
-        margin: 50px 10px 50px 0px;
+        margin: 50px 10px 50px 20px;
         font-size:.9rem;
         width: 75%;
         position: relative;
