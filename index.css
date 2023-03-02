@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+
+html * {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222020;
+}
+
+h1 {
+    color: cornsilk;
+    text-shadow: 5px 5px 60px rgb(149, 148, 150);
+    text-align: center;
+    font-size: 8rem;
+    transition: 3.1s ease;
+    display:inline-block;
+    letter-spacing: 0.1em;
+    margin: 50px auto;
+    position: relative;
+    z-index: -5;
+    animation: zoom-in-zoom-out 2s ease;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(0, -2.1);
+    }
+    50% {
+      transform: scale(2.1, 2.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+aside {
+    border: 1px solid rgb(209, 207, 207);
+    opacity: 0.09;
+    margin: 0% 11.5%;
+}
+
+
+h2 {
+    color: #cca0ed;
+    margin: auto;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+
+thead th {
+    background: #023c5c;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding:auto;
+  }
+  
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+
+  }
+  
+  th, td {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    padding: 20px;
+    text-align: left;
+    width: 50%;
+    font-size: 1.7rem;
+    color: #fff;
+  }
+
+tr td {
+    color:#000;
+    font-size: 2.8rem;
+}
+
+/* Classes */
+a {
+    text-align: center;
+    font-size: 4rem;
+    color: cornsilk;
+    width: justify;
+    text-shadow: 3px 3px 3px black;
+    text-decoration: none;
+}
+/* Link to Site */
+a:hover {
+    text-decoration: underline;
+    color:#b588f0;
+    transform: scale(1.1);
+    filter: drop-shadow(.1px .1px .1px rgb(240, 240, 240));
+}
+
+.content {
+    text-align: center;
+    font-size: 5rem;
+    color: cornsilk;
+    width: justify;
+    text-shadow: 3px 3px 3px black;
+}
+
+.cssBorder {
+    border: 1px solid rgb(209, 207, 207);
+    opacity: 0.09;
+    margin: 2.9% 11.5%;
+}
+
+.description {
+    font-family:'Source Sans Pro', 'Times New Roman', Times, serif;
+    font-weight:400;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.descriptionHeading {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.elementColumn {
+    width: 1% !important;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.mainHeading {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.propertyColumn {
+    width:1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+/* Box Model */
+.tabDimensions {
+    width: 60%;
+    margin: 50px auto;
+    position: relative;
+}
+/* FlexBox */
+.tabDimensionsCSS {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+#tagBackground {
+    background:#d5d5d5;
+    font-family: monospace, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+/* HTML Table Width of First Column */
+.tagName{
+    width:10%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+/* CSS Table Width of First Column */
+.tagName1 {
+    width:30%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Footer */
+
+footer {
+    text-align:center;
+    font-size: 1rem;
+    color:#b1a4a455;
+    margin-bottom: 25px;
+    border: 1px solid #ffe4e422;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    text-align:center;
+    color:#b1a4a455;
+}
+
+#footer1:hover {
+    color: hsl(196, 20%, 89%);
+    transform: scale(1.2);
+}
+
+#footer-link {
+    color:#b1a4a455;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: hsl(196, 20%, 89%);
+}
+
+/* MEDIA QUERIES 
+Main Heading Font size */
+@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+    .mainHeading  {
+        font-size:1.7rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+    h1  {
+        font-size: 2.5rem;
+        width: 100%;
+    }
+}
+
+/* HTML Table Section */
+@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+    .propertyColumn, .descriptionHeading, .elementColumn  {
+        margin: auto;
+        font-size:.9rem;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+    a  {
+        margin: auto;
+        font-size:1.4rem;
+        width: 75%;
+    }
+}
+
+/* font size for html table property and description column */
+@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+    .description, #tagBackground  {
+        letter-spacing: 0.5pxpx;
+        margin: 100px auto;
+        font-size:.9rem;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+    .tabDimensions  {
+        margin: 50px 10px 50px 0px;
+        font-size:.9rem;
+        width: 75%;
+        position: relative;
+   }
+}
+
+@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+    table  {
+        margin: 50px 10px auto 7px;
+        font-size:.9rem;
+        width: 40%;
+        position: relative;
+   }
+}
+
