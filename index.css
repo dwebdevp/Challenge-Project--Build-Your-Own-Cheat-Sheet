@@ -271,4 +271,9 @@ Main Heading Font size */
         position: relative;
    }
 }
-
+/* Footer */
+@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+    #footer1  {
+        margin: 100px auto auto auto;
+  }
+}
