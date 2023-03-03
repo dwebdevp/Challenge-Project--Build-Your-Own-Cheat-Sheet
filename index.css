@@ -280,7 +280,7 @@ Main Heading Font size */
   }
 }
 
-/* font size for html table property and description column */
+/* Tablet text-align: left */
 @media only screen and (min-width: 768px) and (max-width: 1600px ){
     .description, #tagBackground  {
         text-align: left;
