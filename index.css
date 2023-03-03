@@ -217,14 +217,14 @@ Main Heading Font size */
     .mainHeading  {
         font-size: 1.7rem;
         width: 100%;
-    }
+   }
 }
 
 @media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
     h1  {
         font-size: 2.5rem;
         width: 100%;
-    }
+   }
 }
 
 /* HTML Table Section */
@@ -234,7 +234,7 @@ Main Heading Font size */
         font-size: .9rem;
         width: 75%;
         
-    }
+   }
 }
 
 @media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
@@ -242,7 +242,7 @@ Main Heading Font size */
         margin: auto;
         font-size: 1.75rem;
         width: 75%;
-    }
+   }
 }
 
 /* font size for html table property and description column */
@@ -253,7 +253,7 @@ Main Heading Font size */
         font-size: 0.9rem;
         width: 75%;
         text-align: left;
-    }
+   }
 }
 
 @media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
@@ -277,13 +277,21 @@ Main Heading Font size */
 @media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
     #footer1  {
         margin: 75px auto auto auto;
-  }
+   }
 }
 
-/* Tablet text-align: left */
-@media only screen and (min-width: 768px) and (max-width: 1600px ){
+/* Tablet --- Left the CSS table section without horizontal margins */
+@media only screen and (min-width: 768px) and (max-width: 1600px ) {
     .description, #tagBackground  {
         text-align: left;
-    }
+   }
 }
 
+Main Heading Font size */
+@media only screen and (min-width: 768px) and (max-width: 1600px ) {
+    .mainHeading h1  {
+        font-size: 4rem;
+        width: 50%;
+        margin: auto;
+   }
+}
