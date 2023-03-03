@@ -279,79 +279,11 @@ Main Heading Font size */
         margin: 75px auto auto auto;
   }
 }
-                                    /* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 1600px ) {
-        .description  {
-            font-size: 1.2rem;
-            width: 50%;
-            text-align: left;
-  }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 768px ) {
-    .mainHeading h1  {
-        font-size: 4rem;
-        width: 50%;
-        margin: auto;
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 768px ) {
-    h1  {
-        font-size: 2.5rem;
-        width: 100%;
-        margin: auto;
-    }
-}
-
-/* HTML Table Section */
-@media only screen and (min-width: 480px) and (max-width: 768px ){
-    .propertyColumn, .descriptionHeading, .elementColumn  {
-        margin: auto;
-        font-size: .9rem;
-        width: 75%;
-    }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 768px ) {
-    a  {
-        margin: auto;
-        font-size: 1.75rem;
-        width: 75%;
-    }
-}
 
 /* font size for html table property and description column */
-@media only screen and (min-width: 480px) and (max-width: 768px ){
+@media only screen and (min-width: 768px) and (max-width: 1600px ){
     .description, #tagBackground  {
-        letter-spacing: 0.5px;
-        margin: 100px auto;
-        font-size: 0.9rem;
-        width: 75%;
         text-align: left;
     }
 }
 
-@media only screen and (min-width: 480px) and (max-width: 768px ) {
-    .tabDimensionsCSS  {
-        margin: auto;
-        font-size: .9rem;
-        width: 90%;
-        position: relative;
-   }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 768px ) {
-    .css-table  {
-        margin: 50px 10px auto 10px;
-        font-size: .9rem;
-        width: 100%;
-        position: relative;
-   }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 768px ) {
-    #footer1  {
-        margin: 75px auto auto auto;
-  }
-}
