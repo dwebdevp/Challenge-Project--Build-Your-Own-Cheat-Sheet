@@ -216,7 +216,7 @@ a:hover {
 /* Main Heading Font size  */
 @media only screen and (min-width: 320px) and (max-width: 480px ) and  
 (min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ) and 
-(max-width: 1600), (orientation: portrait), (orientation: landscape) {
+(max-width: 1600), (orientation: portrait) and (orientation: landscape) {
     .mainHeading h1 {
         width: 100%;
         margin: 50px auto;
@@ -234,7 +234,7 @@ a:hover {
 
 /* Links Small Screens */
 @media only screen and (min-width: 320px) and (max-width: 480px ),  
-(min-width: 481px) and (max-width: 768px ), (orientation: portrait), (orientation: landscape) {
+(min-width: 481px) and (max-width: 768px ), (orientation: portrait) and (orientation: landscape) {
     a  {
         margin: auto;
         font-size: 1.85rem;
@@ -245,7 +245,7 @@ a:hover {
 }
 /* Links Large Screens */
 @media only screen and  (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
     a  {
         margin: auto;
         font-size: 1.85rem;
@@ -257,7 +257,7 @@ a:hover {
 /* font size for html table property and description column Small Screens */
 @media only screen and (min-width: 320px) and (max-width: 480px ),  
 (min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
     .description, #tagBackground  {
         letter-spacing: 0.5px;
         margin: 100px auto;
@@ -268,7 +268,7 @@ a:hover {
 }
 /* font size for html table property and description column Large Screens */
 @media only screen and (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
     .description, #tagBackground  {
         letter-spacing: 0.5px;
         margin: 100px auto;
@@ -280,7 +280,7 @@ a:hover {
 
 @media only screen and (min-width: 320px) and (max-width: 480px ),  
 (min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
     .tabDimensions  {
         margin: 50px auto;
         font-size: .9rem;
@@ -291,7 +291,7 @@ a:hover {
 /* HTML Table width Small Screens */
 @media only screen and (min-width: 320px) and (max-width: 480px ),  
 (min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
     .html-table  {
         margin: auto;
         font-size: .9rem;
@@ -302,7 +302,7 @@ a:hover {
 
 /* HTML Table width Large Screens */
 @media only screen and  (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
     .html-table  {
         margin: auto;
         font-size: .9rem;
@@ -313,7 +313,7 @@ a:hover {
 
 /* Table width Large Screens */
 @media only screen and (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
      .css-table  {
         margin: auto;
         font-size: .9rem;
@@ -325,7 +325,7 @@ a:hover {
 /* Footer */
 @media only screen and (min-width: 320px) and (max-width: 480px ),  
 (min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape){
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape){
     #footer1  {
         margin: 75px auto auto auto;
   }
