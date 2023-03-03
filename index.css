@@ -248,6 +248,7 @@ Main Heading Font size */
 @media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
     .description, #tagBackground  {
         letter-spacing: 0.5px;
+        text-align: left;
         margin: 100px auto;
         font-size: .9rem;
         width: 75%;
