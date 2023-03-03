@@ -13,7 +13,7 @@ h1 {
     color: cornsilk;
     text-shadow: 5px 5px 60px rgb(149, 148, 150);
     text-align: center;
-    font-size: 8rem;
+    font-size: 4.5rem !important;
     transition: 3.1s ease;
     display:inline-block;
     letter-spacing: 0.1em;
@@ -86,7 +86,7 @@ tr td {
 /* Classes */
 a {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.1rem;
     color: cornsilk;
     width: justify;
     text-shadow: 3px 3px 3px black;
@@ -123,14 +123,14 @@ a:hover {
 
 .descriptionHeading {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .elementColumn {
     width: 1% !important;
     text-align: center;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .mainHeading {
@@ -142,7 +142,7 @@ a:hover {
     width:1%;
     text-align: center;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 1.5rem;
     
 }
 /* Box Model */
@@ -212,86 +212,121 @@ a:hover {
 }
 
 /* MEDIA QUERIES 
-Main Heading Font size */
-@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
-    .mainHeading  {
-        font-size: 1.7rem;
+
+/* Main Heading Font size  */
+@media only screen and (min-width: 320px) and (max-width: 480px ) and  
+(min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ) and 
+(max-width: 1600), (orientation: portrait), (orientation: landscape) {
+    .mainHeading h1 {
         width: 100%;
-   }
+        margin: 50px auto;
+    }
 }
 
-@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
-    h1  {
-        font-size: 2.5rem;
-        width: 100%;
-   }
-}
-
-/* HTML Table Section */
+/* HTML Table Section  *********************************************************************** */
 @media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
     .propertyColumn, .descriptionHeading, .elementColumn  {
         margin: auto;
-        font-size: .9rem;
+        font-size: 1.1rem;
         width: 75%;
-        
-   }
+    }
 }
 
-@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+/* Links Small Screens */
+@media only screen and (min-width: 320px) and (max-width: 480px ),  
+(min-width: 481px) and (max-width: 768px ), (orientation: portrait), (orientation: landscape) {
     a  {
         margin: auto;
-        font-size: 1.75rem;
+        font-size: 1.85rem;
         width: 75%;
-   }
+        position:relative;
+        display: inline-block;
+    }
 }
-
-/* font size for html table property and description column */
-@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+/* Links Large Screens */
+@media only screen and  (min-width: 769px) and (max-width: 1024px ), 
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+    a  {
+        margin: auto;
+        font-size: 1.85rem;
+        width: 100%;
+        position:relative;
+        display: inline-block;
+    }
+}
+/* font size for html table property and description column Small Screens */
+@media only screen and (min-width: 320px) and (max-width: 480px ),  
+(min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
     .description, #tagBackground  {
         letter-spacing: 0.5px;
         margin: 100px auto;
         font-size: 0.9rem;
         width: 75%;
         text-align: left;
-   }
+    }
+}
+/* font size for html table property and description column Large Screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px ), 
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+    .description, #tagBackground  {
+        letter-spacing: 0.5px;
+        margin: 100px auto;
+        font-size: 1.2rem;
+        width: 75%;
+        text-align: left;
+    }
 }
 
-@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+@media only screen and (min-width: 320px) and (max-width: 480px ),  
+(min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
     .tabDimensions  {
-        margin: 50px 10px 50px 11.5px;
+        margin: 50px auto;
         font-size: .9rem;
         width: 75%;
         position: relative;
    }
 }
-
-@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
-    table  {
-        margin: 50px 10px auto 12.5px;
+/* HTML Table width Small Screens */
+@media only screen and (min-width: 320px) and (max-width: 480px ),  
+(min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+    .html-table  {
+        margin: auto;
         font-size: .9rem;
         width: 40%;
         position: relative;
    }
 }
+
+/* HTML Table width Large Screens */
+@media only screen and  (min-width: 769px) and (max-width: 1024px ), 
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+    .html-table  {
+        margin: auto;
+        font-size: .9rem;
+        width: 70%;
+        position: relative;
+   }
+}
+
+/* Table width Large Screens */
+@media only screen and (min-width: 769px) and (max-width: 1024px ), 
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape) {
+     .css-table  {
+        margin: auto;
+        font-size: .9rem;
+        width: 50%;
+        position: relative;
+   }
+}
+
 /* Footer */
-@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+@media only screen and (min-width: 320px) and (max-width: 480px ),  
+(min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
+(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait), (orientation: landscape){
     #footer1  {
         margin: 75px auto auto auto;
-   }
-}
-
-/* Tablet --- Left the CSS table section without horizontal margins */
-@media only screen and (min-width: 768px) and (max-width: 1600px ) {
-    .description, #tagBackground  {
-        text-align: left;
-   }
-}
-
-Main Heading Font size */
-@media only screen and (min-width: 768px) and (max-width: 1600px ) {
-    .mainHeading h1  {
-        font-size: 4rem;
-        width: 50%;
-        margin: auto;
-   }
+  }
 }
