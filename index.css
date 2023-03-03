@@ -271,4 +271,12 @@ Main Heading Font size */
         position: relative;
    }
 }
-
+/* CSS Section */
+@media only screen and (max-width: 768px ) and (max-width: 1024px) {
+    .tabDimensionsCSS  {
+        margin: auto;
+        font-size: .9rem;
+        width: 40%;
+        position: relative;
+   }
+}
