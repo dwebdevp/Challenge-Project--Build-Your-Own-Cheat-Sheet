@@ -20,7 +20,7 @@ h1 {
     transition: 3.1s ease;
     display:inline-block;
     letter-spacing: 0.1em;
-    margin: 50px auto;
+    margin: 50px auto 25px auto;
     position: relative;
     z-index: -5;
     animation: zoom-in-zoom-out 2s ease;
