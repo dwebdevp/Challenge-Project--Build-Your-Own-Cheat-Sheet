@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300&display=swap');
 
-html * {
+html {
     font-size: 10px;
-    box-sizing: border-box;
+    
 }
+ * {
+    box-sizing: border-box;
+ }
 
 body {
     background: #222020;
@@ -13,7 +16,7 @@ h1 {
     color: cornsilk;
     text-shadow: 5px 5px 60px rgb(149, 148, 150);
     text-align: center;
-    font-size: 4.5rem !important;
+    font-size: 8rem;
     transition: 3.1s ease;
     display:inline-block;
     letter-spacing: 0.1em;
@@ -86,7 +89,7 @@ tr td {
 /* Classes */
 a {
     text-align: center;
-    font-size: 3.1rem;
+    font-size: 4rem;
     color: cornsilk;
     width: justify;
     text-shadow: 3px 3px 3px black;
@@ -114,23 +117,29 @@ a:hover {
     margin: 2.9% 11.5%;
 }
 
+.css-table {
+    margin-top: 50px;
+}
+
+
+
 .description {
     font-family:'Source Sans Pro', 'Times New Roman', Times, serif;
     font-weight:400;
-    text-align: justify;
+    text-align: left;
     font-size: 1.5rem;
 }
 
 .descriptionHeading {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .elementColumn {
     width: 1% !important;
     text-align: center;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .mainHeading {
@@ -142,7 +151,7 @@ a:hover {
     width:1%;
     text-align: center;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 3rem;
     
 }
 /* Box Model */
@@ -204,7 +213,7 @@ footer {
 #footer-text-color {
     color:#b1a4a455;
     text-decoration: none;
-    font-size:1.5rem;
+    font-size: 1.5rem;
 }
 
 a:hover {
@@ -212,121 +221,104 @@ a:hover {
 }
 
 /* MEDIA QUERIES 
+Main Heading Font size */
 
-/* Main Heading Font size  */
-@media only screen and (min-width: 320px) and (max-width: 480px ) and  
-(min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ) and 
-(max-width: 1600), (orientation: portrait) and (orientation: landscape) {
-    .mainHeading h1 {
+@media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
+and (max-width: 1600px){
+    body  {
+        font-size:1.7rem;
         width: 100%;
-        margin: 50px auto;
+        margin: auto;
     }
 }
 
-/* HTML Table Section  *********************************************************************** */
-@media only screen and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px) {
+@media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
+and (max-width: 1600px) {
+    .mainHeading  {
+        font-size:1.7rem;
+        width: 100%;
+        margin: 30px auto;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
+and (max-width: 1600px) {
+    h1  {
+        font-size: 2.5rem;
+        width: 100%;
+        margin: auto;
+    }
+}
+
+/* HTML Table Section */
+@media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
+and (max-width: 1600px) {
     .propertyColumn, .descriptionHeading, .elementColumn  {
         margin: auto;
-        font-size: 1.1rem;
-        width: 75%;
-    }
-}
-
-/* Links Small Screens */
-@media only screen and (min-width: 320px) and (max-width: 480px ),  
-(min-width: 481px) and (max-width: 768px ), (orientation: portrait) and (orientation: landscape) {
-    a  {
-        margin: auto;
-        font-size: 1.85rem;
-        width: 75%;
-        position:relative;
-        display: inline-block;
-    }
-}
-/* Links Large Screens */
-@media only screen and  (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
-    a  {
-        margin: auto;
-        font-size: 1.85rem;
-        width: 100%;
-        position:relative;
-        display: inline-block;
-    }
-}
-/* font size for html table property and description column Small Screens */
-@media only screen and (min-width: 320px) and (max-width: 480px ),  
-(min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
-    .description, #tagBackground  {
-        letter-spacing: 0.5px;
-        margin: 100px auto;
-        font-size: 0.9rem;
-        width: 75%;
-        text-align: left;
-    }
-}
-/* font size for html table property and description column Large Screens */
-@media only screen and (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
-    .description, #tagBackground  {
-        letter-spacing: 0.5px;
-        margin: 100px auto;
-        font-size: 1.2rem;
-        width: 75%;
-        text-align: left;
-    }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 480px ),  
-(min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
-    .tabDimensions  {
-        margin: 50px auto;
         font-size: .9rem;
         width: 75%;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
+and (max-width: 1600px) {
+    a  {
+        margin: auto;
+        font-size: 1.6rem;
+        width: 75%;
+    }
+}
+
+/* font size for html table property and description column */
+@media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
+and (max-width: 1600px){
+    .description, #tagBackground  {
+        letter-spacing: 0.5px;
+        margin: 100px auto;
+        font-size: .9rem;
+        width: 75%;
+        margin: auto;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
+and (max-width: 1600px){
+    .tabDimensions  {
+        margin: 30px auto;
+        font-size: .9rem;
+        width: 100%;
         position: relative;
    }
 }
-/* HTML Table width Small Screens */
-@media only screen and (min-width: 320px) and (max-width: 480px ),  
-(min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
-    .html-table  {
-        margin: auto;
+
+@media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
+and (max-width: 1600px) {
+    table  {
+        margin: 30px auto;
         font-size: .9rem;
         width: 40%;
         position: relative;
    }
 }
 
-/* HTML Table width Large Screens */
-@media only screen and  (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
+@media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
+and (max-width: 1600px) {
+    .css-table  {
+        margin: 30px auto;
+        font-size: .9rem;
+        width: 40%;
+        position: relative;
+   }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
+and (max-width: 1600px) {
     .html-table  {
-        margin: auto;
+        margin: 50px auto;
         font-size: .9rem;
-        width: 70%;
+        width: 40%;
         position: relative;
    }
-}
-
-/* Table width Large Screens */
-@media only screen and (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape) {
-     .css-table  {
-        margin: auto;
-        font-size: .9rem;
-        width: 50%;
-        position: relative;
-   }
-}
-
-/* Footer */
-@media only screen and (min-width: 320px) and (max-width: 480px ),  
-(min-width: 481px) and (max-width: 768px ), (min-width: 769px) and (max-width: 1024px ), 
-(min-width: 1025px) and (max-width: 1200px ), (min-width: 1201px), (orientation: portrait) and (orientation: landscape){
-    #footer1  {
-        margin: 75px auto auto auto;
-  }
 }
