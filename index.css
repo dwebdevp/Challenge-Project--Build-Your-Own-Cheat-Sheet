@@ -156,7 +156,7 @@ a:hover {
 }
 /* Box Model */
 .tabDimensions {
-    width: 60%;
+    width: 75%;
     margin: 50px auto;
     position: relative;
 }
@@ -312,6 +312,15 @@ and (max-width: 1600px) {
         position: relative;
    }
 }
+/* CSS Table width smaller screens */
+@media only screen and (min-width: 280px) and (max-width: 915px ) {
+    .css-table  {
+        margin: 30px auto;
+        font-size: .9rem;
+        width: 79%;
+        position: relative;
+   }
+}
 
 @media only screen and (min-width: 280px) and (max-width: 480px) and (max-width: 768px ) and (max-width: 1024px)
 and (max-width: 1600px) {
@@ -319,6 +328,15 @@ and (max-width: 1600px) {
         margin: 50px auto;
         font-size: .9rem;
         width: 40%;
+        position: relative;
+   }
+}
+/* HTML Table width smaller screens */
+@media only screen and (min-width: 280px) and (max-width: 915px ) {
+    .html-table  {
+        margin: 50px auto;
+        font-size: .9rem;
+        width: 84%;
         position: relative;
    }
 }
