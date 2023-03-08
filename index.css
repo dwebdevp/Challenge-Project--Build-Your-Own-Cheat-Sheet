@@ -2,11 +2,11 @@
 
 html {
     font-size: 10px;
-    
 }
- * {
+
+* {
     box-sizing: border-box;
- }
+}
 
 body {
     background: #222020;
@@ -62,14 +62,13 @@ thead th {
     letter-spacing: 2px;
     text-transform: uppercase;
     padding:auto;
-  }
+}
   
   tr {
     background: #f4f7f8;
     border-bottom: 1px solid #FFF;
     margin-bottom: 5px;
-
-  }
+}
   
   th, td {
     font-family: 'Lato', sans-serif;
@@ -79,7 +78,7 @@ thead th {
     width: 50%;
     font-size: 1.7rem;
     color: #fff;
-  }
+}
 
 tr td {
     color:#000;
@@ -95,6 +94,7 @@ a {
     text-shadow: 3px 3px 3px black;
     text-decoration: none;
 }
+
 /* Link to Site */
 a:hover {
     text-decoration: underline;
@@ -120,8 +120,6 @@ a:hover {
 .css-table {
     margin-top: 50px;
 }
-
-
 
 .description {
     font-family:'Source Sans Pro', 'Times New Roman', Times, serif;
@@ -154,12 +152,14 @@ a:hover {
     font-size: 3rem;
     
 }
+
 /* Box Model */
 .tabDimensions {
     width: 75%;
     margin: 50px auto;
     position: relative;
 }
+
 /* FlexBox */
 .tabDimensionsCSS {
     display:flex;
@@ -172,6 +172,7 @@ a:hover {
     font-family: monospace, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
 }
+
 /* HTML Table Width of First Column */
 .tagName{
     width:10%;
@@ -179,6 +180,7 @@ a:hover {
     font-weight: bold;
     font-size: 2rem;
 }
+
 /* CSS Table Width of First Column */
 .tagName1 {
     width:30%;
@@ -188,7 +190,6 @@ a:hover {
 }
 
 /* Footer */
-
 footer {
     text-align:center;
     font-size: 1rem;
