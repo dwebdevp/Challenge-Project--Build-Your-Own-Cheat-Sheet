@@ -1,4 +1,4 @@
-# Challenge-Project--Build-Your-Own-Cheat-Sheet (Project #2 - Full Stack Developer)
+# Challenge-Project--Build-Your-Own-Cheat-Sheet (Off-Platform Project #2 - Full Stack Developer) 
 Build your own Cheatsheet incorporating HTML &amp; CSS.
 
 Codecademy Project: (Full Stack Developer)
